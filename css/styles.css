@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+menu a:hover {
+    background-color: #444;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.about-section {
+    text-align: center;
+    padding: 50px;
+}
+.about-section img {
+    width: 500px;
+    border-radius: 50%;
+}
+menu {
+    background-image: url('../media/Sask-Pulse-Growers-Lentil-Tabbouleh-Salad-Bowl-424-web-feature-image.jpg'); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    height: 100px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+menu ul li {
+    margin: 0 10px; /* Adjust spacing between menu items */
+  }
+
+menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  }
+
+menu ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity as needed */
+  }
+  img {
+float: left;
+  }
+  a{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+  /* CSS ADAPTATIF PAR TAILLE D'ÉCRAN / RESPONSIVE CSS */
+/* Grand bureau */
+@media (min-width: 1200px) { 
+  body    {
+  }
+}
+
+/* Tablette portrait vers paysage et bureau */
+@media (min-width: 768px) and (max-width: 1199px) { 
+  body    {
+      background-color: purple;
+  }
+}
+
+/* Téléphone paysage vers tablette portrait */
+@media (max-width: 767px) { 
+  body    {
+      background-color: blue;
+  }
+}
+
+/* Téléphones paysage et vers le bas */
+@media (max-width: 480px) { 
+  body    {
+      background-color: red;
+  }
+  li {
+    float: none;
+  }
+}
